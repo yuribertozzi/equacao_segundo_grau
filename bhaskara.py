@@ -17,7 +17,7 @@ if b ** 2 - 4 * a * c<0:
 
 if b ** 2 - 4 * a * c == 0:
 
-	x = (-b + math.sqrt(b ** 2 - 4 * a * c)) / 2 * a
+	x = (-b + math.sqrt(b ** 2 - 4 * a * c)) / (2 * a)
 	
 	print("a raiz dupla desta equação é", x)
 
@@ -25,9 +25,9 @@ if b ** 2 - 4 * a * c == 0:
 
 if b ** 2 - 4 * a * c > 0:
 
-	m = (-b + math.sqrt(b ** 2 - 4 * a * c)) / 2 * a
+	m = (-b + math.sqrt(b ** 2 - 4 * a * c)) / (2 * a)
 
-	n = (-b - math.sqrt(b ** 2 - 4 * a * c)) / 2 * a
+	n = (-b - math.sqrt(b ** 2 - 4 * a * c)) / (2 * a)
 
 	if m>n:
 			
