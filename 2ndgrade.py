@@ -43,8 +43,5 @@ def raizes(a, b, c):
 			n = (- b - math.sqrt(d)) / (2 * a)
 
 			print("As raízes são", m, "e", n, ".")
-		
 			
-
-		
-
+main()
